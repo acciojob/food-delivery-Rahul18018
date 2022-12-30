@@ -22,28 +22,28 @@ public class OrderController {
 
 		return null;
 	}
-	
+
 	@PostMapping()
 	public OrderDetailsResponse createOrder(@RequestBody OrderDetailsRequestModel order) {
-		
+
 		return null;
 	}
-		
+
 	@PutMapping(path="/{id}")
 	public OrderDetailsResponse updateOrder(@PathVariable String id, @RequestBody OrderDetailsRequestModel order) throws Exception{
-		
+
 		return null;
 	}
-	
+
 	@DeleteMapping(path = "/{id}")
 	public OperationStatusModel deleteOrder(@PathVariable String id) throws Exception {
-		
+
 		return null;
 	}
-	
+
 	@GetMapping()
 	public List<OrderDetailsResponse> getOrders() {
-		
+
 		return null;
 	}
 }
